@@ -1,9 +1,9 @@
-let num1 = 3;
-let num2 = 6;
-function wynik(num1, num2) {
-if (num1 > num2) 
-    console.log(num1);
+let num1 = 2;
+let num2 = 5;
+function wynik(number1, number2) {
+if (number1 > number2) 
+    return number1;
 else 
-    console.log(num2);
+    return number2;
 }
 console.log(wynik(num1,num2));
